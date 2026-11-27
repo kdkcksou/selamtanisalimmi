@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Premium Cinema — Sinema, özenle seçildi</title>
+<meta name="description" content="Premium sinema deneyimi: filmler ve diziler, özenle düzenlenmiş.">
+<meta name="theme-color" content="#08090D"><meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Premium Cinema">
+<meta property="og:title" content="Premium Cinema"><meta property="og:description" content="Premium sinema deneyimi: filmler ve diziler, özenle düzenlenmiş.">
+<meta property="og:image" content=""><meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Premium Cinema">
+<link rel="canonical" href="">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23E50924'/%3E%3Cpath d='M12 9.5v13l11-6.5z' fill='%23fff'/%3E%3C/svg%3E">
+<script>
+  /* Routing: History API on http(s) (needs an SPA fallback, see README); automatic #hash fallback on file://.
+     Hosting in a sub-folder? set window.PC_BASE = '/my-folder';  Force hash mode: window.PC_ROUTING = 'hash'; */
+  (function () { if (location.protocol !== 'file:' && window.PC_ROUTING !== 'hash') document.write('<base href="' + (window.PC_BASE || '') + '/">'); })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://image.tmdb.org" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#view">İçeriğe geç</a>
+<header id="nav" class="nav"></header>
+<main id="view" tabindex="-1"></main>
+<footer id="foot" class="foot"></footer>
+<nav id="bottomNav" class="bottom-nav" aria-label="Mobil menü"></nav>
+<div id="dim" aria-hidden="true"></div>
+<div id="modalRoot"></div>
+<div id="toasts" aria-live="polite"></div>
+<noscript><p style="padding:40px;color:#fff">Bu uygulama JavaScript gerektirir. / This app requires JavaScript.</p></noscript>
+<script src="app.js" defer></script>
+</body>
+</html>
